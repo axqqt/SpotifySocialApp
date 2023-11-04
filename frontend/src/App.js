@@ -2,7 +2,7 @@ import React, { useState, memo } from "react";
 import Axios from "axios";
 import "./App.css";
 
-function App(props) {
+function App() {
 
   const [balls, setBalls] = useState([]);
 
